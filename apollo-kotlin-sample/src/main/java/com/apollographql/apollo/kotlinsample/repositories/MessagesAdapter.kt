@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.apollographql.apollo.kotlinsample.R
-import com.apollographql.apollo.kotlinsample.fragment.RepositoryFragment
+import com.apollographql.apollo.kotlinsample.fragment.MessageFragment
 import kotlinx.android.synthetic.main.item_repository.view.*
 import java.util.*
 

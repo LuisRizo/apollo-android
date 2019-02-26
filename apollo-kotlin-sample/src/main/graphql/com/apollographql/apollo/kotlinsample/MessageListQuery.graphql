@@ -1,0 +1,11 @@
+query MessageListQuery($roomID: Int!){
+  chatroom(roomID: $roomID){
+    messages {
+        ...MessageFragment
+    }
+  }
+}
+
+fragment MessageFragment on Message {
+    text
+}
